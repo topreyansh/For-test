@@ -109,15 +109,6 @@ define('RM_REQ_EXT_SIMPLEXML', 0x40);
 define('RM_REQ_EXT_MCRYPT', 0x80);
 define('RM_REQ_EXT_MBSTRING', 0x100);
 
-define('RM_BASE_DIR', plugin_dir_path(__FILE__));
-define('RM_BASE_URL', plugin_dir_url(__FILE__));
-define('RM_ADMIN_DIR', RM_BASE_DIR . "admin/");
-define('RM_PUBLIC_DIR', RM_BASE_DIR . "public/");
-define('RM_IMG_DIR', RM_BASE_DIR . "images/");
-define('RM_IMG_URL', plugin_dir_url(__FILE__) . 'images/');
-define('RM_INCLUDES_DIR', RM_BASE_DIR . 'includes/');
-define('RM_EXTERNAL_DIR', RM_BASE_DIR . 'external/');
-
 //form types
 define('RM_BASE_FORM', 99);
 define('RM_CONTACT_FORM', 0);
